@@ -64,11 +64,6 @@
                          TextWrapping="Wrap"
                          VerticalAlignment="Top"
                          Width="120">
-                    
-                    <TextBox.InputBindings>
-                        <KeyBinding Gesture="Enter"
-                                    Command="{Binding OnAddActorButton}"/>
-                    </TextBox.InputBindings>
                 </TextBox> 
                     
                 <Button x:Name="AddActorButton"
